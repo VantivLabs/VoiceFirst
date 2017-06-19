@@ -15,6 +15,7 @@ exports.handler = function (event, context) {
          * Uncomment this if statement and populate with your skill's application ID to
          * prevent someone else from configuring a skill that sends requests to this function.
          */
+        //Please change this to your applicationid for AWS
         if (event.session.application.applicationId !== "amzn1.ask.skill.2767985b-1e37-48c0-a13e-f4aead039ec6") {
             context.fail("Invalid Application ID");
         }
