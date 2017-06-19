@@ -230,7 +230,7 @@ function getPasscode(clientid, response) {
 
     var options = {
         "method": "PATCH",
-        "hostname": "vauctiontechexpo-dev.us-east-1.elasticbeanstalk.com",
+        "hostname": "<Enter your hostname here>",
         "port": "80",
         "path": "/api/passcode/" + encodeURIComponent(clientid),
         "headers": {
@@ -261,7 +261,7 @@ function makeBid(clientid, bid, response) {
 
     var options = {
         "method": "PUT",
-        "hostname": "vauctiontechexpo-dev.us-east-1.elasticbeanstalk.com",
+        "hostname": "<Enter your hostname here>",
         "port": "80",
         "path": "/api/bid/",
         "headers": {
@@ -294,7 +294,7 @@ function quitAuction(response) {
 
     var options = {
         "method": "DELETE",
-        "hostname": "vauctiontechexpo-dev.us-east-1.elasticbeanstalk.com",
+        "hostname": "<Enter your hostname here>",
         "port": "80",
         "path": "/api/bid/",
         "headers": {
@@ -325,7 +325,7 @@ function highestBid(response) {
 
     var options = {
         "method": "GET",
-        "hostname": "vauctiontechexpo-dev.us-east-1.elasticbeanstalk.com",
+        "hostname": "<Enter your hostname here>",
         "port": "80",
         "path": "/api/bid/",
         "headers": {
